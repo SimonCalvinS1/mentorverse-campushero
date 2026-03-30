@@ -1,15 +1,15 @@
-# MeetHub - Mentor-Mentee Online Meeting Platform
+# MentorVerse (CampusHero) - Mentor-Mentee Online Meeting Platform
 
 A modern, responsive web application designed for 5 BCA students to facilitate seamless mentor-mentee meeting sessions, saving time for both teachers and students.
 
-## 📋 Project Overview
+## Project Overview
 
 MeetHub simplifies the process of scheduling and conducting mentor-mentee sessions by allowing:
 
 - **Teachers/Mentors**: Select students by roll number ranges or custom selections, create meeting sessions, and manage their mentoring schedules
 - **Students/Mentees**: View assigned mentor sessions, join meetings, and track their mentoring progress
 
-## 🎯 Key Features
+## Key Features
 
 ### For Teachers
 
@@ -36,7 +36,7 @@ MeetHub simplifies the process of scheduling and conducting mentor-mentee sessio
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
 - **Modern UI**: Built with Tailwind CSS for a polished appearance
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend Framework**: React 19 with TypeScript
 - **Build Tool**: Vite
@@ -45,7 +45,7 @@ MeetHub simplifies the process of scheduling and conducting mentor-mentee sessio
 - **Icons**: Lucide React
 - **Package Manager**: npm
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -74,7 +74,7 @@ src/
 └── vite-env.d.ts       # Vite type declarations
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -123,7 +123,7 @@ The application comes with sample demo accounts for testing:
 - **Email**: `student1@college.edu`
 - **Password**: `student123`
 
-## 🎨 Design System
+## Design System
 
 ### Colors
 
@@ -139,7 +139,7 @@ The application comes with sample demo accounts for testing:
 - **Input Fields**: Consistent styling with focus states
 - **Badges**: Status indicators
 
-## 🔄 User Workflows
+## User Workflows
 
 ### Teacher Workflow
 
@@ -159,13 +159,13 @@ The application comes with sample demo accounts for testing:
 4. Click "Join Meeting" to join a scheduled or ongoing session
 5. View session history (completed sessions)
 
-## 🔐 Authentication
+## Authentication
 
 - **Session-based**: User data stored in browser sessionStorage
 - **Role-based Access Control**: Different routes for teachers and students
 - **Protected Routes**: Automatic redirect to login if required
 
-## 🌐 API Integration (Future)
+## API Integration (Future)
 
 The current implementation uses mock data. To integrate with a backend:
 
@@ -186,7 +186,7 @@ GET    /api/students             # Get student list
 POST   /api/sessions/:id/join    # Join meeting
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ```json
 {
@@ -209,14 +209,14 @@ POST   /api/sessions/:id/join    # Join meeting
 }
 ```
 
-## 📱 Responsive Design
+## Responsive Design
 
 - **Mobile**: Optimized for screens < 640px
 - **Tablet**: Optimized for screens 640px - 1024px
 - **Desktop**: Optimized for screens > 1024px
 - **Navigation**: Hamburger menu on mobile, full menu on desktop
 
-## 🎯 Next Steps & Enhancements
+## Next Steps & Enhancements
 
 1. **Backend Integration**
    - Connect to SQL database (MySQL/PostgreSQL)
@@ -247,21 +247,11 @@ POST   /api/sessions/:id/join    # Join meeting
    - Analytics and reporting
    - System administration
 
-## 🤝 Contributing
-
-To extend the application:
-
-1. Create new components in `src/components/`
-2. Add new pages in `src/pages/`
-3. Define types in `src/types/`
-4. Add routes in `src/App.tsx`
-5. Follow existing code patterns and naming conventions
-
-## 📄 License
+## License
 
 This project is created for 5 BCA A students.
 
-## 👨‍💼 Support & Contact
+## Support & Contact
 
 For issues, suggestions, or feature requests, please contact the development team.
 
